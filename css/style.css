@@ -1,0 +1,27 @@
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h1,
+h3,
+.logo {
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.emphasis {
+    color: #02c8ff !important;
+    font-weight: 800;
+}
+
+.border-accent,
+.hover\:border-accent:hover {
+    border-color: #02c8ff;
+}
+
+.rotate-left {
+    transform: rotate(-8deg);
+}
+
+.rotate-right {
+    transform: rotate(8deg);
+}
